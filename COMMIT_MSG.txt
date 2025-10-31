@@ -1,0 +1,23 @@
+feat: initial implementation of Solana token sniper bot
+
+Add high-performance Rust-based token sniper for Solana blockchain with
+support for multiple DEXs (Raydium, Pump.fun, Meteora, Orca) and Jito
+block engines (Jito, Nozomi, Zeroslot, NextBlock).
+
+Features:
+- Real-time token launch monitoring via Helius and Yellowstone gRPC
+- Low-latency trade execution with Jito block engine integration
+- Multi-wallet support (up to 20 wallets) with transaction bundling
+- Configurable TP/SL strategy with time-based exit conditions
+- Support for multiple DEX protocols
+
+Project structure:
+- Core token and transaction handling
+- Engine for swap logic and gRPC monitoring
+- DEX implementations for Pump.fun, Raydium, Meteora, Orca
+- Jito services for fast transaction confirmation
+- Common utilities and logging
+
+Configuration via environment variables for RPC keys, slippage, Jito
+settings, TP/SL parameters, and trade amounts.
+
