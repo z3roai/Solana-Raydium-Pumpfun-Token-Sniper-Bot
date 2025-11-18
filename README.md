@@ -1,4 +1,4 @@
-# Solana Token Sniper
+# Solana Raydium Pumpfun Token Sniper Bot
 
 A high-performance token sniper bot for Solana, built in Rust, designed to detect and execute trades on newly launched tokens across Raydium and Pump.fun with minimal latency.
 
